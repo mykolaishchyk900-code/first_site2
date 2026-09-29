@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Замовлення піци online</h2>
+    <label for="name">Ваше ім'я:</label>
+    <br>
+    <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я">
+    <br>
+    <br>
+    <label for="phone">Номер телефону:</label>
+    <br>
+    <input type="tel" id="phone" name="phone" placeholder="+380XXXXXXXXX">
+    <br>
+    <br>
+    <label for="size">Розмір піци:</label>
+    <br>
+    <select name="size" id="size">
+        <option value="small">Маленька (25 см)</option>
+        <option value="medium">Середня (30 см)</option>
+        <option value="large">Велика (40 см)</option>
+    </select>
+    <br>
+    <br>
+    <label>Виберіть тип соусу:</label>
+    <br>
+    <input type="radio" id="tomato" name="sauce" value="tomato">
+    <label for="tomato">Томатний</label>
+    <br>
+    <input type="radio" id="cream" name="sauce" value="cream">
+    <label for="cream">Вершковий</label>
+    <br>
+    <input type="radio" id="garlic" name="sauce" value="cream">
+    <label for="garlic">Часниковий</label>
+    <br>
+    <br>
+    <label>Додаткові інгредієнти:</label>
+    <br>
+    <input type="checkbox" id="cheese_crust" name="extras" value="cheese_crust">
+    <label for="cheese_crust">Сирний бортик</label>
+    <br>
+    <input type="checkbox" id="double_meat" name="extras" value="double_meat">
+    <label for="double_meat">Подвійне м'ясо</label>
+    <br>
+    <input type="checkbox" id="mashrooms" name="extras" value="mashrooms">
+    <label for="mashrooms">Гриби</label>
+    <br>
+    <input type="checkbox" id="olive_oil" name="extras" value="olive_oil">
+    <label for="olive_oil">Оливкове масло</label>
+    <br>
+    <br>
+    <label for="address">Адреса доставки та побажання до кур'єра:</label>
+    <br>
+<textarea name="address" id="address" rows="4" cols="40" placeholder="Вкажіть вултцю, будинок, під'їзд або інші деталі..."></textarea>
+    <br>
+    <br>
+<button type="submit">Оформити замовлення</button>
+</body>
+</html>
